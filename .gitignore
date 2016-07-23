@@ -24,4 +24,4 @@ _testmain.go
 *.prof
 
 # visual studio code settings
-.vscde
+.vscode
