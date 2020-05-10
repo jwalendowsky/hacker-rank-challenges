@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"hackerrank"
 	"os"
+
+	"github.com/jwalendowsky/hacker-rank-challenges/hackerrank"
 )
 
 const challengeNameIndex = 0
@@ -41,9 +42,18 @@ func main() {
 		hackerrank.QuickSortPart1()
 	case "QuickSortPart2":
 		hackerrank.QuickSortPart2()
-	case "InsertionSortAdvancedAnalysis":
-		hackerrank.InsertionSortAdvancedAnalysis()
-
+	case "CounterGame":
+		hackerrank.CounterGame()
+	case "KingRichardsKnights":
+		hackerrank.KingRichardsKnights()
+	case "QueensAttack2":
+		hackerrank.QueensAttack2()
+	case "MatrixLayerRotation":
+		hackerrank.MatrixLayerRotation()
+	case "StoneGame":
+		hackerrank.StoneGame()
+	case "MakingCandies":
+		hackerrank.MakingCandies()
 	default:
 		fmt.Println("You must provide an existing challenge name.")
 	}
